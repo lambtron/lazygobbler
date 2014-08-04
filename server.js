@@ -19,6 +19,9 @@ app.use(express.bodyParser());
 // Routes ======================================================================
 require('./config/routes.js')(app);
 
+// Database ====================================================================
+require('./app/lib/db_connect');
+
 // Listen (start app with node server.js) ======================================
 server.listen(port, function() {
 	console.log("App is now listening on port " + port);

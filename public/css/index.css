@@ -1,7 +1,11 @@
 html, body {
-	background: #9BCD9B;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+#map-canvas {
+  height: 100%;
 }
 
 .white {
